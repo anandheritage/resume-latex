@@ -1,0 +1,191 @@
+%-------------------------
+% Resume in Latex
+% Author : Anand Kr Shaw
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://in.linkedin.com/in/anand-kumar-shaw-b4578650/}{\Large Anand Kr Shaw}} & Email : \href{mailto:anandkrshawheritage@gmail.com}{anandkrshawheritage@gmail.com}\\
+  \href{https://in.linkedin.com/in/anand-kumar-shaw-b4578650/}{https://in.linkedin.com/in/anand-kumar-shaw-b4578650} & Mobile : 8100198054 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Heritage Institute of Technology}{Kolkata, WB}
+      {B.Tech in Computer Science;  GPA: 8.02}{June. 2011 -- July. 2015}
+    \resumeSubheading
+      {Sree Jain Vidyalaya - Kolkata}{Kolkata, WB}
+      {Higher Secondary;  Score: 79\% }{May. 2009 -- June. 2011}
+    \resumeSubheading
+      {Hind Motor High School}{Kolkata, WB}
+      {Secondary;  Score: 75.22\% }{May. 2007 -- June. 2009}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Paytm}{Bangalore, Karnataka}
+      {Software Engineer}{May 2017 - Present}
+      \resumeItemListStart
+        \resumeItem{Marketplace Flights Integration}
+          {The project includes direct integration with partners, We have developed it in Java using Akka and Akka HTTP (Actor and Message driven paradigm).We have build the service (Rest Api's)and deployed it on Kubernetes, integrating it with Partner's soap services.}
+          \medskip
+        \resumeItem{Multi Staged Environment using Istio(Envoy)}
+          {Projects includes development of multiple services to support different microservices to interact with each other's different version of service hosted on the platform without changing the end-point url. Mproxy a marketplace proxy was developed(in Node js). Also includes development of an open source project named HPROP  }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {SAP Labs}{Bangalore, Karnataka}
+      {Developer Associate}{Aug 2015 - May 2017}
+      \resumeItemListStart
+        \resumeItem{Jobscheduler as a service}
+          {Developing and Designing REST API’s in Node Js , End to end writing DB
+        procedures,triggers, sequences in Postgresql. Creating db module and
+        Client Application in JAVA.}
+        \medskip
+        \resumeItem{Kafka as a Service}
+          {Creating Bosh release of Kafka and providing it on Openstack as Kafka as
+        a service. Got a good knowledge on networks, tenants and IAAS Layer}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages}{: Java, Node js, C, C++, SQL}
+      
+    }
+    \item{
+      \textbf{Subjects}{: Algorithms, Data Structures, OS, Networking, Database}
+    }
+    \item{
+      \textbf{Technologies}{: Akka, Flyway, Kubernetes, Kafka, Istio , Envoy , Docker ,MongoDB , Redis}
+    }
+  \resumeSubHeadingListEnd
+  
+%--------Technical Achievements------------
+\section{Technical Achievements}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{}{Selected for ACM-ICPC Asia regionals Gwalior (Top 90 teams out
+of 900)}
+    }
+    \item{
+      \textbf{}{Qualified for Google Code Jam and Facebook hacker Cup 2014.}
+    }
+    \item{
+      \textbf{}{Runner up in Coding contest in tech fest of JADAVPUR
+        UNIVERSITY.}
+    }
+    \item{
+      \textbf{}{Codechef id : anand\_007, spoj\_id :anand\_heritage.}
+    }
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Recommendation System}
+      {Worked on “Scalable Spatially and Socially aware
+Recommendation on Cloud” as final year B.Tech Project under
+the supervision of Dr Prosenjit Gupta. We improved out
+recommendation process by partitioning of data using Karger’s
+min cut algorithm.}
+    \resumeSubItem{Health Portal}
+      {Used J2EE to develop a health portal using mysql as database.
+This was done as a 3rd year training project under Globsyn.}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
